@@ -58,4 +58,87 @@
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
     }
+
+    .guides {
+        margin-top: 50px;
+    }
+
+    .list-guide {
+        flex-direction: column;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .guide-item .title {
+        margin-top: 12px;
+    }
+
+    .list-guide .link {
+        display: block;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .featured {
+        margin-top: 70px;
+        padding: 60px 0;
+    }
+
+    .featured .row {
+        flex-direction: column;
+        gap: 10px;
+    } 
+
+    .featured .sub-title {
+        font-size: 3rem;
+    }
+
+    .featured .list {
+        display: flex;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        gap: 16px;
+    }
+    
+    .featured .item {
+        min-width: 100%;
+        flex-shrink: 0;
+        scroll-snap-align: start;
+    }
+
+    .stats {
+        margin-top: 20px;
+    }
+
+    .stats .img-block, 
+    .stats .info {
+        width: 100%;
+    }
+
+    .stats .img-block .image {
+        width: 100%;
+    }
+
+    .stats-trend {
+        width: 230px;
+        padding: 10px;
+        box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+        border-radius: 12px 0 12px 12px;
+    }
+
+    .stats-trend .value {
+        font-size: 1.6rem;
+    }
+    
+    .stats-trend .desc {
+        margin-top: 3px;
+    }
+
+    .stats .row {
+        flex-direction: column;
+    }
+
+    .stats .info {
+        padding: 79px 0 0 0px;
+    }
 }
