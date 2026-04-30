@@ -56,7 +56,14 @@
         margin-top: 40px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: "aa bb" "cc dd" "ee ee";
         gap: 20px;
+    }
+
+    .sitepoint {
+        grid-area: ee;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .guides {
@@ -140,5 +147,68 @@
 
     .stats .info {
         padding: 79px 0 0 0px;
+    }
+
+    .stats .qty-row {
+        margin-top: 30px;
+        flex-direction: row;
+        padding: 0;
+        gap: 10px;
+
+    }
+
+    .qty-row .qty {
+        font-size: 3.4rem;
+    }
+
+    .qty-row .qty-desc {
+        font-size: 1.2rem;
+    }
+
+    .subscription  {
+        margin-top: 20px;
+    }
+
+    .subscription .body {
+        height: 300px;
+    }
+
+    .subscription .info {
+        padding-left: 10px;
+    }
+
+    .subscription .sub-title {
+        font-size: 2rem;
+    }
+
+    .subscription .desc {
+        width: 60%;
+        margin-top: 8px;
+        font-size: 1.2rem;
+    }
+
+    .subscription .btn {
+        margin-top: 10px;
+        min-width: 120px;
+    }
+
+    .subscription .image {
+        width: 48%;
+        right: -8px;
+    }
+
+    .footer {
+        margin-top: 20px;
+        padding: 25px 0 58px;
+    }
+
+    .footer .row-top {
+        display: none;
+    }
+
+    .footer .row-bottom {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 30px;
     }
 }
