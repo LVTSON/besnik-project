@@ -178,6 +178,7 @@
     }
 
     .subscription .sub-title {
+        width: 60%;
         font-size: 2rem;
     }
 
